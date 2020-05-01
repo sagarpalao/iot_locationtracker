@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_loccar"
+            android:title="Locate Car"/>
+        <item
+            android:id="@+id/nav_geofence"
+            android:title="Geo Fence"/>
+        <item
+            android:id="@+id/nav_geobound"
+            android:title="Geo Boundary"/>
+        <item
+            android:id="@+id/nav_geoalarm"
+            android:title="Geo Alarm"/>
+        <item
+            android:id="@+id/nav_bus"
+            android:title="Bus Track"/>
+        <item
+            android:id="@+id/nav_park"
+            android:title="Park Me"/>
+        <item
+            android:id="@+id/nav_settings"
+            android:title="Settings"/>
+    </group>
+
+</menu>

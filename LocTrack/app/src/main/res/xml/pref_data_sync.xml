@@ -1,0 +1,9 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="not_freeze"
+        android:title="Freeze Car"
+        android:summary="Lets u freeze your car and get notification when it moves"
+        android:widgetLayout="@layout/mp_preference_switch"/>
+</PreferenceScreen>
